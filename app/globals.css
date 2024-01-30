@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ListboxItem {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.AddItem {
+  background-color: lightgray;
+  border: solid;
+  border-radius: 30px;
+  width: 600px;
+  height: 200px;
+  padding: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.Profile {
+  background-color: rgb(142, 183, 185);
+  border: solid;
+  border-radius: 30px;
+  width: 600px;
+  max-height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
