@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { Likes, Subscribe } from "@prisma/client";
+import { Subscribe, Likes } from "@prisma/client";
 import { Button, Card, CardHeader, CardBody, CardFooter } from "@nextui-org/react";
 import { BsHandThumbsUp } from "react-icons/bs";
 import { useEffect } from "react";
