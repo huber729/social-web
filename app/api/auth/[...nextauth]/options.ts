@@ -1,8 +1,8 @@
-import NextAuth, { type NextAuthOptions } from 'next-auth'
+import { type AuthOptions } from 'next-auth'
 import GoogleProvider from "next-auth/providers/google"
 import { prisma } from '@/lib/prisma'
 
-const authOptions: NextAuthOptions = {
+const authOptions: AuthOptions = {
     session: {
       strategy: 'jwt'
     },
