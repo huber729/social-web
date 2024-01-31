@@ -1,7 +1,7 @@
 import SignOut from "../client-components/signout";
 import LogIn from "../client-components/login";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../api/auth/[...nextauth]/route";
+import authOptions from "@/app/api/auth/[...nextauth]/options"
 import Personal from "../client-components/personal";
 
 async function getProfile() {
